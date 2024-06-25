@@ -1,0 +1,7 @@
+go run main.go --> runs the program
+go help --> shows help
+go version --> shows go version
+
+
+go install -v golang.org/x/tools/cmd/godoc@latest --> install godoc
+go doc fmt Println --> get documentation on Println using godoc
