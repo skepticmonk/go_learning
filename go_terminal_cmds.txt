@@ -1,6 +1,7 @@
 go run main.go --> runs the program
 go help --> shows help
 go version --> shows go version
+go mod init <mod-name>--> initialize module
 
 
 go install -v golang.org/x/tools/cmd/godoc@latest --> install godoc
