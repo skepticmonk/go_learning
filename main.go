@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/skepticmonk/go_learning/channel"
+)
 
 // Go does not have classes
 // this is a comment
@@ -30,4 +34,6 @@ func main() {
 	struct_example()
 	interface_example()
 	go_routine()
+	channel.Select_example()
+	channel.Channel_example()
 }
